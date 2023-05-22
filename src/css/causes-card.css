@@ -1,0 +1,20 @@
+.three-causes-cards{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.causes-card-btn {
+    border-radius: 5px;
+    background-color: #219D80;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .causes-card-title{
+    color: #219D80;
+    font-weight: bold;
+  }

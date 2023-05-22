@@ -1,0 +1,67 @@
+ .z-pattern-image{
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+.z-pattern-content-1, .z-pattern-content-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+    padding: 100px;
+    
+}
+
+.z-pattern-text h1{
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+.first-h6{
+    margin-top:10px;
+    
+}
+
+h6{
+    font-weight: 100;
+}
+
+.read-more-button{
+    color: white;
+    border: none;
+    background-color: #219D80;
+    margin: 10px 0;
+    padding: 9px 20px 9px 20px;
+}
+
+.mission-vision{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    
+}
+.our-mission h5,.our-vision h5{
+    color: #219D80;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+   
+}
+.our-mission ,.our-vision {
+   
+    
+    background-color: #EDF7F5;
+   
+}
+
+.our-mission p,.our-vision p{
+    color: #555555;
+    padding: 0 20px;
+    font-size: 13px;
+    text-align: center;
+    
+   
+}

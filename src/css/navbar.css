@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.navbar-list{
+    list-style: none;
+   
+}
+
+.logo-img{
+    width: 200px;
+    height: 50px;
+}
+.list-item{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+.Navbar{
+    display: flex;
+    background-image: url("../images/navbar.png");
+    
+    background-size: cover;
+height: 70px;
+justify-content: space-between;
+    
+}
+
+.navbar-list{
+    width: 50vw;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+
+}
+
+
+.buttons button{
+    color: white;
+    border: none;
+    background-color: #219D80;
+    margin: 0 10px 0 10px;
+    padding: 9px 20px 9px 20px;
+    
+}
+
+.buttons .search-button{
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    padding: 9px 20px 9px 20px;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.sign-up-btn,.login-btn{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #219D80;
+    margin: 0 10px 0 10px;
+    padding: 9px 20px 9px 20px;
+    text-decoration: none;
+}
+
+.sign-up-btn:hover,
+.login-btn:hover {
+  background-color: #23826c;
+  text-decoration: none;
+  color: white;
+}

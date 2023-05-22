@@ -1,0 +1,41 @@
+.login-form h1{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.login-form-container{
+    width: 100%;
+}
+
+.login-form select, .login-form input{
+    border-radius: 5px;
+}
+
+
+.login-mail-container{
+    margin-top: 20px;
+}
+
+.login-password-container{
+    margin-top: 20px;
+}
+
+.forgot-pass{
+    color: #252A34;
+    font-weight: 100;
+    
+}
+
+
+
+
+
+.login-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+    align-items: center;
+}

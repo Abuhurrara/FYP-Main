@@ -1,0 +1,15 @@
+.post-food-btn {
+    border: none;
+    background-color: #219D80;
+    border-radius: 5px;
+    color: white;
+    margin: 2rem 6rem;
+    padding: 7px;
+}
+.th-name {
+    padding-left: 200px;
+}
+
+.tr-history {
+    line-height: 45px;
+}

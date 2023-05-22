@@ -1,0 +1,36 @@
+.cards{
+    width: 70%;
+    margin:50px auto;
+}
+
+.latest-news h6{
+    font-weight: bold;
+}
+
+.articles h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.card-buttons button{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #D9F5EE;
+}
+
+.card-buttons{
+    display: flex;
+    column-gap: 20px;
+}

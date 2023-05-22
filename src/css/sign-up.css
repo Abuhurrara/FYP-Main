@@ -1,0 +1,104 @@
+.sign-up-hero{
+    background-image: url("../images/signup-hero-section-cropped.png");
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.sign-up-hero h1{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+    color: white;
+}
+
+.home-breadcrumb{
+    color: white;
+    text-decoration: none;
+}
+
+.slash{
+    color: white;
+}
+
+.sign-up-breadcrumb{
+    color: #219D80;
+}
+
+.sign-up-form-container{
+    width: 100%;
+    
+}
+
+.sign-up-form{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.sign-up-form h1{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.sign-up-button{
+    background-color: #219D80;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.sign-up-form select {
+    border-radius: 5px;
+}
+
+
+
+
+.first-name{
+    background-color: #EDF7F5;
+    border: 1px solid #D9D7D7;
+    height: 50px;
+    width: 400px;
+    padding: 20px;
+}
+
+.reg-cert{
+    margin-top: 7px;
+    
+}
+
+.first-last-name{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+
+
+.donor-ngo-dropdown{
+    background-color: #219D80;
+    border: 1px solid #D9D7D7;
+    color: white;
+    height: 50px;
+    width: 400px;
+    
+}
+
+.mail-user-type{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.password-confirm-pass{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+}

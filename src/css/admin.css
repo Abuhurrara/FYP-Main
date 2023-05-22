@@ -1,0 +1,128 @@
+.sidebar {
+    background-color: #EDF7F5;
+    width: 300px;
+    height: 100%;
+    padding-bottom: 200px;
+    margin: 40px;
+}
+
+.h5-head {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* .sidebar .items {
+    margin-top: 20px;
+} */
+.items-button {
+    border: none;
+    background-color: #EDF7F5;
+    height: 5rem;
+    text-align: left;
+    padding: 0 0 1rem 1rem;
+    
+}
+.items-button:hover {
+    cursor: pointer;
+    background: #D9D9D9;
+}
+
+.sidebar .items li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.items hr {
+    margin: 0 1rem;
+    
+    background-color: #e3e3e3;
+}
+.abc{
+    font-weight:1100;
+    padding: 97px 0 0 22px;
+}
+.title-line {
+    color: #219D80;
+    opacity: 1;
+    width: 20%;
+    margin: 50px 0 50px 20px ;
+    
+}
+.stats {
+    margin-top: 40px;
+}
+.stats-box {
+    background-color: #EDF7F5;
+    height: 16rem;
+    width: 13rem;
+    margin: 0 25px 28px 0px;
+    
+}
+.stats-img {
+    margin: 50px 0 25px 0;
+}
+.restaurant-p{
+    
+    text-align: center;
+}
+.stats-no {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.stats-detail {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #555555;
+}
+
+.data-head {
+    background-color: #EDF7F5;
+    width: 1050px;
+    height: 640px;
+    margin-top: 40px;
+    justify-content: space-between; 
+    padding: 42px 138px 40px 60px;
+    
+}
+.add-restaurant {
+    color: white;
+    border: none;
+    background-color: #219D80;
+    margin: 0 10px 0 10px;
+    padding: 9px 20px 9px 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display', sans-serif;
+    border-radius: 5px;
+    
+}
+
+.restaurant-dashboard-data {
+    background-color: #EDF7F5;
+    width: 1050px;
+    height: 640px;
+    margin-top: 40px;
+    padding: 0px 138px 40px 60px;
+}
+
+.restaurant-dashboard-header {
+    margin: 42px 0 40px 0;
+}
+
+.table thead {
+    background-color: #81858b !important;
+    color: white;
+}
+
+
+tr td .btn-edit {
+    background-color: #81858b;
+    color: white;
+}
+
+tr td .btn-delete {
+    background-color: #219D80;
+    color: white;
+}

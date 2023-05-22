@@ -1,0 +1,64 @@
+.card{
+    width: 18rem;
+    border-radius: 26px;
+    border: none;
+    box-shadow: 0 10px 20px  #888888;
+}
+
+.three-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img{
+    border-radius: 26px 26px 0 0;
+}
+
+.card-author, .card-date{
+    display: flex;
+    column-gap:5px;
+    align-items: center;
+    
+}
+
+.card-author h6, .card-date h6{
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    color: #999999;
+}
+
+.card-author,.card-date{
+    margin-bottom: 15px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info svg{
+  color: #999999;
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text{
+    font-weight: 100;
+}
+
+.card-read-more{
+    color:#219D80;
+   border:2px solid #219D80;
+    border-radius: 5px;
+}
+
+.card-read-more:hover{
+    color:white;
+    background-color: #219D80;
+}
+
+
+

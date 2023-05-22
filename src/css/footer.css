@@ -1,0 +1,84 @@
+.footer{
+    background-color: #22262F;
+    padding: 0 0 50px 0;
+}
+
+.footer-logo-img{
+    width:100px;
+}
+.first-footer-section h5{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.first-footer-section,.second-footer-section,.third-footer-section,.fourth-footer-section,.fifth-footer-section{
+    padding-top: 80px;
+}
+
+
+
+
+
+.footer-first-heading{
+margin-top: 10px;
+font-family: 'Poppins', sans-serif;
+color: white;
+
+}
+
+.quick-links{
+    
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    
+    }
+
+.footer-last-heading{
+    margin-bottom: 0;
+}
+
+.footer-home,.footer-about-us,.footer-blog-post,.footer-photo-gallery,.footer-contact-us,.footer-our-services, .footer-buy-meal{
+    color: #AFAFAF;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.newsletter-btn,.newsletter-btn:hover{
+    color: white;
+    background-color: #219D80;
+    margin-left: 0;
+    border-radius: 0 5px 5px 0;
+
+}
+
+.newsletter-search{
+    border-radius: 5px 0 0 5px;
+    margin-right: 0 !important;
+}
+
+.newsletter-disclaimer{
+    color: #AFAFAF;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.footer-icons {
+   display: flex;
+   column-gap: 10px;
+}

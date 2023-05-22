@@ -1,0 +1,55 @@
+*{box-sizing: border-box;}
+
+.hero-section{
+
+        
+        background-image: url("../images/hero-section-cropped.png");
+        
+        background-size: cover;
+    width: 100%;
+    height: 70vh;
+    
+        
+    
+}
+
+.hero-section h3, .hero-section h1, .hero-section h4{
+    color: white;
+}
+
+.hero-section h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.hero-section h4{
+    font-weight: 50;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero-buttons button{
+    color: white;
+    border: none;
+    background-color: #219D80;
+    margin: 20px 10px;
+    padding: 20px 30px 20px 30px;
+}
+
+.hero-buttons .know-us{
+    background-color: transparent;
+    border: 2px solid #219D80 ;
+}
